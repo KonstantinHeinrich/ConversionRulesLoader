@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<ExternalDataProcessor uuid="25655568-a9fb-4ae8-b036-b92ae96e7582">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
+				<xr:ObjectId>2a76bea2-52bd-40e1-a429-d8d7abecc6db</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:GeneratedType name="ExternalDataProcessorObject.ConversionRulesLoader" category="Object">
+				<xr:TypeId>7190195d-43a2-499a-b119-3d86830c9821</xr:TypeId>
+				<xr:ValueId>c08b6fd6-ded1-4cee-8cdf-365819d3646d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ConversionRulesLoader</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Conversion rules loader</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm>ExternalDataProcessor.ConversionRulesLoader.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a85f093f-91b2-4bd5-99ac-a10ffcbd5cf2">
+				<Properties>
+					<Name>ДобавлятьОписаниеПараметровВКодОбработчиков</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавлять описание параметров в код обработчиков</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В исходные тексты кода обработчиков, которые выгружаются в файлы bsl, будет добавлен блок с описанием параметров текущего обработчика</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="2ac08f86-9867-47e3-928f-187f1e5c0bf1">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ConversionRulesLoader.Конвертации" category="TabularSection">
+						<xr:TypeId>962440ff-88e4-4e3b-a064-23c5ce0700f5</xr:TypeId>
+						<xr:ValueId>845c7f6e-93f9-45da-888b-eab4819b79a0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ConversionRulesLoader.Конвертации" category="TabularSectionRow">
+						<xr:TypeId>0b476afb-61a5-4c40-9a55-6cb3076b8f62</xr:TypeId>
+						<xr:ValueId>0f353eee-9ccb-42be-ba2a-fe0abd296a9b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Конвертации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конвертации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5b5dc014-aeb7-4722-b75a-2d24a29dbe32">
+						<Properties>
+							<Name>Конвертация</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Конвертация</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Конвертации</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9d61204e-21d5-45a6-afbe-feb1dea0bba5">
+						<Properties>
+							<Name>Каталог</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Каталог</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:type="xs:string"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>Форма</Form>
+			<Template>Группа_ПередВыгрузкой</Template>
+			<Template>Группа_ПередОбработкойВыгрузки</Template>
+			<Template>Группа_ПослеВыгрузки</Template>
+			<Template>Группа_ПослеОбработкиВыгрузки</Template>
+			<Template>Группа_ПриВыгрузке</Template>
+			<Template>ПравилаВыгрузкиДанных_ПередВыгрузкойОбъекта</Template>
+			<Template>ПравилаВыгрузкиДанных_ПередОбработкойПравила</Template>
+			<Template>ПравилаВыгрузкиДанных_ПослеВыгрузкиОбъекта</Template>
+			<Template>ПравилаВыгрузкиДанных_ПослеОбработкиПравила</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПередВыгрузкой</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПередЗагрузкой</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПослеВыгрузки</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПослеВыгрузкиВФайл</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПоследовательностьПолейПоиска</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПослеЗагрузки</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПриВыгрузке</Template>
+			<Template>ПравилаКонвертацииОбъектов_ПриЗагрузке</Template>
+			<Template>ПравилаОбмена_ПередВыгрузкойДанных</Template>
+			<Template>ПравилаОбмена_ПередВыгрузкойОбъекта</Template>
+			<Template>ПравилаОбмена_ПередЗагрузкойДанных</Template>
+			<Template>ПравилаОбмена_ПередЗагрузкойОбъекта</Template>
+			<Template>ПравилаОбмена_ПередКонвертациейОбъекта</Template>
+			<Template>ПравилаОбмена_ПередОтправкойИнформацииОбУдалении</Template>
+			<Template>ПравилаОбмена_ПередПолучениемИзмененныхОбъектов</Template>
+			<Template>ПравилаОбмена_ПослеВыгрузкиДанных</Template>
+			<Template>ПравилаОбмена_ПослеВыгрузкиОбъекта</Template>
+			<Template>ПравилаОбмена_ПослеЗагрузкиДанных</Template>
+			<Template>ПравилаОбмена_ПослеЗагрузкиОбъекта</Template>
+			<Template>ПравилаОбмена_ПослеЗагрузкиПараметров</Template>
+			<Template>ПравилаОбмена_ПослеЗагрузкиПравилОбмена</Template>
+			<Template>ПравилаОбмена_ПослеПолученияИнформацииОбУзлахОбмена</Template>
+			<Template>ПравилаОбмена_ПриПолученииИнформацииОбУдалении</Template>
+			<Template>ПравилаОчисткиДанных_ПередОбработкойПравила</Template>
+			<Template>ПравилаОчисткиДанных_ПередУдалениемОбъекта</Template>
+			<Template>ПравилаОчисткиДанных_ПослеОбработкиПравила</Template>
+			<Template>Свойство_ПередВыгрузкой</Template>
+			<Template>Свойство_ПослеВыгрузки</Template>
+			<Template>Свойство_ПриВыгрузке</Template>
+		</ChildObjects>
+	</ExternalDataProcessor>
+</MetaDataObject>
